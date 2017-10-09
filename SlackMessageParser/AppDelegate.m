@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import <SLKMessageParser/SLKMessageParser.h>
+#import "StartViewController.h"
+#import "FHHFPSIndicator.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [UIFont registMessageFontsForPre:@"courier"
+                                code:@"Menlo-Regular"
+                             default:@"Lato-Regular"];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[StartViewController new]];
+    [self.window makeKeyAndVisible];
+    [[FHHFPSIndicator sharedFPSIndicator] show];
+
     return YES;
 }
 

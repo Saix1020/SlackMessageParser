@@ -8,28 +8,162 @@
 
 /* Begin PBXBuildFile section */
 		F8101E681F8B14DA001A20A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101E671F8B14DA001A20A4 /* AppDelegate.m */; };
-		F8101E6B1F8B14DA001A20A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101E6A1F8B14DA001A20A4 /* ViewController.m */; };
-		F8101E6E1F8B14DA001A20A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8101E6C1F8B14DA001A20A4 /* Main.storyboard */; };
 		F8101E701F8B14DA001A20A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8101E6F1F8B14DA001A20A4 /* Assets.xcassets */; };
 		F8101E731F8B14DA001A20A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8101E711F8B14DA001A20A4 /* LaunchScreen.storyboard */; };
 		F8101E761F8B14DA001A20A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101E751F8B14DA001A20A4 /* main.m */; };
+		F8101E851F8B14F1001A20A4 /* SLKMessageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F8101E831F8B14F1001A20A4 /* SLKMessageParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8101E881F8B14F1001A20A4 /* SLKMessageParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8101E811F8B14F1001A20A4 /* SLKMessageParser.framework */; };
+		F8101E891F8B14F1001A20A4 /* SLKMessageParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F8101E811F8B14F1001A20A4 /* SLKMessageParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8101E941F8B1643001A20A4 /* UIFont+SLKMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101E921F8B1643001A20A4 /* UIFont+SLKMessageParser.m */; };
+		F8101EA01F8B2487001A20A4 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E9C1F8B219D001A20A4 /* Lato-Black.ttf */; };
+		F8101EA11F8B2487001A20A4 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E991F8B219C001A20A4 /* Lato-BlackItalic.ttf */; };
+		F8101EA21F8B2487001A20A4 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E9D1F8B219D001A20A4 /* Lato-Bold.ttf */; };
+		F8101EA31F8B2487001A20A4 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E971F8B219C001A20A4 /* Lato-BoldItalic.ttf */; };
+		F8101EA41F8B2487001A20A4 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E9A1F8B219D001A20A4 /* Lato-Hairline.ttf */; };
+		F8101EA51F8B2487001A20A4 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E981F8B219C001A20A4 /* Lato-HairlineItalic.ttf */; };
+		F8101EA61F8B2487001A20A4 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E9E1F8B219E001A20A4 /* Lato-Italic.ttf */; };
+		F8101EA71F8B2487001A20A4 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E9F1F8B219E001A20A4 /* Lato-Light.ttf */; };
+		F8101EA81F8B2487001A20A4 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E9B1F8B219D001A20A4 /* Lato-LightItalic.ttf */; };
+		F8101EA91F8B2487001A20A4 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8101E961F8B219C001A20A4 /* Lato-Regular.ttf */; };
+		F8101EAD1F8B3B56001A20A4 /* NSString+SLKMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EAB1F8B3B56001A20A4 /* NSString+SLKMessageParser.m */; };
+		F8101EB11F8B3BA0001A20A4 /* SLKEmojiMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EAF1F8B3BA0001A20A4 /* SLKEmojiMap.m */; };
+		F8101ED81F8B3DBD001A20A4 /* UIColor+SLKMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101ED61F8B3DBD001A20A4 /* UIColor+SLKMessageParser.m */; };
+		F8101ED91F8B3E21001A20A4 /* SLKLinkRect.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101ED21F8B3D16001A20A4 /* SLKLinkRect.m */; };
+		F8101EDA1F8B3E24001A20A4 /* SLKMessageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101ED31F8B3D16001A20A4 /* SLKMessageComponent.m */; };
+		F8101EDB1F8B3E27001A20A4 /* SLKMessageToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101ECA1F8B3D15001A20A4 /* SLKMessageToken.m */; };
+		F8101EDC1F8B3E29001A20A4 /* SLKMessageToken+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101ECB1F8B3D15001A20A4 /* SLKMessageToken+Display.m */; };
+		F8101EDD1F8B3E2D001A20A4 /* SLKEmojiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EC21F8B3CD5001A20A4 /* SLKEmojiHandler.m */; };
+		F8101EDE1F8B3E2F001A20A4 /* SLKMarkupHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EC41F8B3CD6001A20A4 /* SLKMarkupHandler.m */; };
+		F8101EDF1F8B3E31001A20A4 /* SLKMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EBA1F8B3CD5001A20A4 /* SLKMessageParser.m */; };
+		F8101EE01F8B3E34001A20A4 /* SLKRegx.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EBC1F8B3CD5001A20A4 /* SLKRegx.m */; };
+		F8101EE11F8B3E38001A20A4 /* SLKSpecialsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EC11F8B3CD5001A20A4 /* SLKSpecialsHandler.m */; };
+		F8101EE21F8B3E3B001A20A4 /* SLKTokenArrayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EB61F8B3CD4001A20A4 /* SLKTokenArrayHandler.m */; };
+		F8101EE31F8B3E3E001A20A4 /* SLKTokenHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EB91F8B3CD5001A20A4 /* SLKTokenHandler.m */; };
+		F8101EE41F8B3E40001A20A4 /* SLKTokensStringHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EB51F8B3CD4001A20A4 /* SLKTokensStringHandler.m */; };
+		F8101EE51F8B3E43001A20A4 /* SLKUrlHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EBB1F8B3CD5001A20A4 /* SLKUrlHandler.m */; };
+		F8101EE91F8B3F99001A20A4 /* SLKMessageAsyncView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EE71F8B3F7E001A20A4 /* SLKMessageAsyncView.m */; };
+		F8101EED1F8B400E001A20A4 /* SLKMessageAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EEB1F8B400E001A20A4 /* SLKMessageAsyncLayer.m */; };
+		F8101EF11F8B41B3001A20A4 /* SLKMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EEF1F8B41B3001A20A4 /* SLKMessageView.m */; };
+		F8101EF41F8B44B6001A20A4 /* SLKMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EF31F8B44B6001A20A4 /* SLKMessageViewController.m */; };
+		F8101EFB1F8B44D3001A20A4 /* UIWindow+FHH.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EF51F8B44D2001A20A4 /* UIWindow+FHH.m */; };
+		F8101EFC1F8B44D3001A20A4 /* FHHFPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EF81F8B44D3001A20A4 /* FHHFPSIndicator.m */; };
+		F8101EFD1F8B44D3001A20A4 /* SLKMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101EF91F8B44D3001A20A4 /* SLKMessageCell.m */; };
+		F8101EFF1F8B45E3001A20A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8101EFE1F8B45CC001A20A4 /* Main.storyboard */; };
+		F8101F0A1F8B4BB8001A20A4 /* UIFont+SLKMessageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F8101E911F8B1643001A20A4 /* UIFont+SLKMessageParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8101F0B1F8B4C5B001A20A4 /* SLKMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8101EEE1F8B41B3001A20A4 /* SLKMessageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8101F0C1F8B4CD6001A20A4 /* SLKMessageAsyncView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8101EE81F8B3F7E001A20A4 /* SLKMessageAsyncView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8101F0D1F8B4CD6001A20A4 /* SLKMessageComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F8101ECC1F8B3D15001A20A4 /* SLKMessageComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8101F101F8B4D58001A20A4 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8101F0F1F8B4D58001A20A4 /* StartViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8101E861F8B14F1001A20A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8101E5B1F8B14DA001A20A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8101E801F8B14F1001A20A4;
+			remoteInfo = SLKMessageParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8101E8D1F8B14F1001A20A4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8101E891F8B14F1001A20A4 /* SLKMessageParser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F8101E631F8B14DA001A20A4 /* SlackMessageParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackMessageParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8101E661F8B14DA001A20A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8101E671F8B14DA001A20A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8101E691F8B14DA001A20A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8101E6A1F8B14DA001A20A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F8101E6D1F8B14DA001A20A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8101E6F1F8B14DA001A20A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8101E721F8B14DA001A20A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8101E741F8B14DA001A20A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8101E751F8B14DA001A20A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8101E811F8B14F1001A20A4 /* SLKMessageParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLKMessageParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8101E831F8B14F1001A20A4 /* SLKMessageParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageParser.h; sourceTree = "<group>"; };
+		F8101E841F8B14F1001A20A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8101E911F8B1643001A20A4 /* UIFont+SLKMessageParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+SLKMessageParser.h"; sourceTree = "<group>"; };
+		F8101E921F8B1643001A20A4 /* UIFont+SLKMessageParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SLKMessageParser.m"; sourceTree = "<group>"; };
+		F8101E961F8B219C001A20A4 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		F8101E971F8B219C001A20A4 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F8101E981F8B219C001A20A4 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		F8101E991F8B219C001A20A4 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F8101E9A1F8B219D001A20A4 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		F8101E9B1F8B219D001A20A4 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		F8101E9C1F8B219D001A20A4 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		F8101E9D1F8B219D001A20A4 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		F8101E9E1F8B219E001A20A4 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		F8101E9F1F8B219E001A20A4 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		F8101EAA1F8B3B56001A20A4 /* NSString+SLKMessageParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SLKMessageParser.h"; sourceTree = "<group>"; };
+		F8101EAB1F8B3B56001A20A4 /* NSString+SLKMessageParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SLKMessageParser.m"; sourceTree = "<group>"; };
+		F8101EAE1F8B3BA0001A20A4 /* SLKEmojiMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKEmojiMap.h; sourceTree = "<group>"; };
+		F8101EAF1F8B3BA0001A20A4 /* SLKEmojiMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKEmojiMap.m; sourceTree = "<group>"; };
+		F8101EB41F8B3CD4001A20A4 /* SLKTokenHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTokenHandler.h; sourceTree = "<group>"; };
+		F8101EB51F8B3CD4001A20A4 /* SLKTokensStringHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTokensStringHandler.m; sourceTree = "<group>"; };
+		F8101EB61F8B3CD4001A20A4 /* SLKTokenArrayHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTokenArrayHandler.m; sourceTree = "<group>"; };
+		F8101EB71F8B3CD4001A20A4 /* SLKMessageParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageParser.h; sourceTree = "<group>"; };
+		F8101EB81F8B3CD5001A20A4 /* SLKUrlHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKUrlHandler.h; sourceTree = "<group>"; };
+		F8101EB91F8B3CD5001A20A4 /* SLKTokenHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTokenHandler.m; sourceTree = "<group>"; };
+		F8101EBA1F8B3CD5001A20A4 /* SLKMessageParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageParser.m; sourceTree = "<group>"; };
+		F8101EBB1F8B3CD5001A20A4 /* SLKUrlHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKUrlHandler.m; sourceTree = "<group>"; };
+		F8101EBC1F8B3CD5001A20A4 /* SLKRegx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKRegx.m; sourceTree = "<group>"; };
+		F8101EBD1F8B3CD5001A20A4 /* SLKMarkupHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMarkupHandler.h; sourceTree = "<group>"; };
+		F8101EBE1F8B3CD5001A20A4 /* SLKRegx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKRegx.h; sourceTree = "<group>"; };
+		F8101EBF1F8B3CD5001A20A4 /* SLKEmojiHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKEmojiHandler.h; sourceTree = "<group>"; };
+		F8101EC01F8B3CD5001A20A4 /* SLKSpecialsHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKSpecialsHandler.h; sourceTree = "<group>"; };
+		F8101EC11F8B3CD5001A20A4 /* SLKSpecialsHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKSpecialsHandler.m; sourceTree = "<group>"; };
+		F8101EC21F8B3CD5001A20A4 /* SLKEmojiHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKEmojiHandler.m; sourceTree = "<group>"; };
+		F8101EC31F8B3CD6001A20A4 /* SLKTokenArrayHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTokenArrayHandler.h; sourceTree = "<group>"; };
+		F8101EC41F8B3CD6001A20A4 /* SLKMarkupHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMarkupHandler.m; sourceTree = "<group>"; };
+		F8101EC51F8B3CD6001A20A4 /* SLKTokensStringHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTokensStringHandler.h; sourceTree = "<group>"; };
+		F8101EC81F8B3D15001A20A4 /* SLKMessageToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageToken.h; sourceTree = "<group>"; };
+		F8101ECA1F8B3D15001A20A4 /* SLKMessageToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageToken.m; sourceTree = "<group>"; };
+		F8101ECB1F8B3D15001A20A4 /* SLKMessageToken+Display.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SLKMessageToken+Display.m"; sourceTree = "<group>"; };
+		F8101ECC1F8B3D15001A20A4 /* SLKMessageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageComponent.h; sourceTree = "<group>"; };
+		F8101ECE1F8B3D15001A20A4 /* SLKLinkRect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKLinkRect.h; sourceTree = "<group>"; };
+		F8101ED21F8B3D16001A20A4 /* SLKLinkRect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKLinkRect.m; sourceTree = "<group>"; };
+		F8101ED31F8B3D16001A20A4 /* SLKMessageComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageComponent.m; sourceTree = "<group>"; };
+		F8101ED41F8B3D16001A20A4 /* SLKMessageToken+Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLKMessageToken+Display.h"; sourceTree = "<group>"; };
+		F8101ED51F8B3DBD001A20A4 /* UIColor+SLKMessageParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SLKMessageParser.h"; sourceTree = "<group>"; };
+		F8101ED61F8B3DBD001A20A4 /* UIColor+SLKMessageParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SLKMessageParser.m"; sourceTree = "<group>"; };
+		F8101EE71F8B3F7E001A20A4 /* SLKMessageAsyncView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageAsyncView.m; sourceTree = "<group>"; };
+		F8101EE81F8B3F7E001A20A4 /* SLKMessageAsyncView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageAsyncView.h; sourceTree = "<group>"; };
+		F8101EEA1F8B400E001A20A4 /* SLKMessageAsyncLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageAsyncLayer.h; sourceTree = "<group>"; };
+		F8101EEB1F8B400E001A20A4 /* SLKMessageAsyncLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageAsyncLayer.m; sourceTree = "<group>"; };
+		F8101EEE1F8B41B3001A20A4 /* SLKMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageView.h; sourceTree = "<group>"; };
+		F8101EEF1F8B41B3001A20A4 /* SLKMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageView.m; sourceTree = "<group>"; };
+		F8101EF21F8B44B6001A20A4 /* SLKMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageViewController.h; sourceTree = "<group>"; };
+		F8101EF31F8B44B6001A20A4 /* SLKMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageViewController.m; sourceTree = "<group>"; };
+		F8101EF51F8B44D2001A20A4 /* UIWindow+FHH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+FHH.m"; sourceTree = "<group>"; };
+		F8101EF61F8B44D2001A20A4 /* SLKMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKMessageCell.h; sourceTree = "<group>"; };
+		F8101EF71F8B44D2001A20A4 /* FHHFPSIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHHFPSIndicator.h; sourceTree = "<group>"; };
+		F8101EF81F8B44D3001A20A4 /* FHHFPSIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHHFPSIndicator.m; sourceTree = "<group>"; };
+		F8101EF91F8B44D3001A20A4 /* SLKMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKMessageCell.m; sourceTree = "<group>"; };
+		F8101EFA1F8B44D3001A20A4 /* UIWindow+FHH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+FHH.h"; sourceTree = "<group>"; };
+		F8101EFE1F8B45CC001A20A4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8101F0E1F8B4D58001A20A4 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		F8101F0F1F8B4D58001A20A4 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F8101E601F8B14DA001A20A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8101E881F8B14F1001A20A4 /* SLKMessageParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8101E7D1F8B14F1001A20A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				F8101E651F8B14DA001A20A4 /* SlackMessageParser */,
+				F8101E821F8B14F1001A20A4 /* SLKMessageParser */,
 				F8101E641F8B14DA001A20A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				F8101E631F8B14DA001A20A4 /* SlackMessageParser.app */,
+				F8101E811F8B14F1001A20A4 /* SLKMessageParser.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,20 +194,142 @@
 		F8101E651F8B14DA001A20A4 /* SlackMessageParser */ = {
 			isa = PBXGroup;
 			children = (
-				F8101E661F8B14DA001A20A4 /* AppDelegate.h */,
-				F8101E671F8B14DA001A20A4 /* AppDelegate.m */,
-				F8101E691F8B14DA001A20A4 /* ViewController.h */,
-				F8101E6A1F8B14DA001A20A4 /* ViewController.m */,
-				F8101E6C1F8B14DA001A20A4 /* Main.storyboard */,
-				F8101E6F1F8B14DA001A20A4 /* Assets.xcassets */,
-				F8101E711F8B14DA001A20A4 /* LaunchScreen.storyboard */,
 				F8101E741F8B14DA001A20A4 /* Info.plist */,
 				F8101E751F8B14DA001A20A4 /* main.m */,
+				F8101E661F8B14DA001A20A4 /* AppDelegate.h */,
+				F8101E671F8B14DA001A20A4 /* AppDelegate.m */,
+				F8101F0E1F8B4D58001A20A4 /* StartViewController.h */,
+				F8101F0F1F8B4D58001A20A4 /* StartViewController.m */,
+				F8101EF21F8B44B6001A20A4 /* SLKMessageViewController.h */,
+				F8101EF31F8B44B6001A20A4 /* SLKMessageViewController.m */,
+				F8101EF71F8B44D2001A20A4 /* FHHFPSIndicator.h */,
+				F8101EF81F8B44D3001A20A4 /* FHHFPSIndicator.m */,
+				F8101EF61F8B44D2001A20A4 /* SLKMessageCell.h */,
+				F8101EF91F8B44D3001A20A4 /* SLKMessageCell.m */,
+				F8101EFA1F8B44D3001A20A4 /* UIWindow+FHH.h */,
+				F8101EF51F8B44D2001A20A4 /* UIWindow+FHH.m */,
+				F8101EFE1F8B45CC001A20A4 /* Main.storyboard */,
+				F8101E6F1F8B14DA001A20A4 /* Assets.xcassets */,
+				F8101E711F8B14DA001A20A4 /* LaunchScreen.storyboard */,
+				F8101E951F8B2190001A20A4 /* fonts */,
 			);
 			path = SlackMessageParser;
 			sourceTree = "<group>";
 		};
+		F8101E821F8B14F1001A20A4 /* SLKMessageParser */ = {
+			isa = PBXGroup;
+			children = (
+				F8101EE61F8B3F71001A20A4 /* View */,
+				F8101EC61F8B3CFF001A20A4 /* Token */,
+				F8101EB31F8B3CBC001A20A4 /* Parser */,
+				F8101E901F8B160F001A20A4 /* Helper */,
+				F8101E831F8B14F1001A20A4 /* SLKMessageParser.h */,
+				F8101E841F8B14F1001A20A4 /* Info.plist */,
+			);
+			path = SLKMessageParser;
+			sourceTree = "<group>";
+		};
+		F8101E901F8B160F001A20A4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F8101ED51F8B3DBD001A20A4 /* UIColor+SLKMessageParser.h */,
+				F8101ED61F8B3DBD001A20A4 /* UIColor+SLKMessageParser.m */,
+				F8101E911F8B1643001A20A4 /* UIFont+SLKMessageParser.h */,
+				F8101E921F8B1643001A20A4 /* UIFont+SLKMessageParser.m */,
+				F8101EAA1F8B3B56001A20A4 /* NSString+SLKMessageParser.h */,
+				F8101EAB1F8B3B56001A20A4 /* NSString+SLKMessageParser.m */,
+				F8101EAE1F8B3BA0001A20A4 /* SLKEmojiMap.h */,
+				F8101EAF1F8B3BA0001A20A4 /* SLKEmojiMap.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F8101E951F8B2190001A20A4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F8101E9C1F8B219D001A20A4 /* Lato-Black.ttf */,
+				F8101E991F8B219C001A20A4 /* Lato-BlackItalic.ttf */,
+				F8101E9D1F8B219D001A20A4 /* Lato-Bold.ttf */,
+				F8101E971F8B219C001A20A4 /* Lato-BoldItalic.ttf */,
+				F8101E9A1F8B219D001A20A4 /* Lato-Hairline.ttf */,
+				F8101E981F8B219C001A20A4 /* Lato-HairlineItalic.ttf */,
+				F8101E9E1F8B219E001A20A4 /* Lato-Italic.ttf */,
+				F8101E9F1F8B219E001A20A4 /* Lato-Light.ttf */,
+				F8101E9B1F8B219D001A20A4 /* Lato-LightItalic.ttf */,
+				F8101E961F8B219C001A20A4 /* Lato-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F8101EB31F8B3CBC001A20A4 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				F8101EB71F8B3CD4001A20A4 /* SLKMessageParser.h */,
+				F8101EBA1F8B3CD5001A20A4 /* SLKMessageParser.m */,
+				F8101EBE1F8B3CD5001A20A4 /* SLKRegx.h */,
+				F8101EBC1F8B3CD5001A20A4 /* SLKRegx.m */,
+				F8101EBF1F8B3CD5001A20A4 /* SLKEmojiHandler.h */,
+				F8101EC21F8B3CD5001A20A4 /* SLKEmojiHandler.m */,
+				F8101EBD1F8B3CD5001A20A4 /* SLKMarkupHandler.h */,
+				F8101EC41F8B3CD6001A20A4 /* SLKMarkupHandler.m */,
+				F8101EC01F8B3CD5001A20A4 /* SLKSpecialsHandler.h */,
+				F8101EC11F8B3CD5001A20A4 /* SLKSpecialsHandler.m */,
+				F8101EC31F8B3CD6001A20A4 /* SLKTokenArrayHandler.h */,
+				F8101EB61F8B3CD4001A20A4 /* SLKTokenArrayHandler.m */,
+				F8101EB41F8B3CD4001A20A4 /* SLKTokenHandler.h */,
+				F8101EB91F8B3CD5001A20A4 /* SLKTokenHandler.m */,
+				F8101EC51F8B3CD6001A20A4 /* SLKTokensStringHandler.h */,
+				F8101EB51F8B3CD4001A20A4 /* SLKTokensStringHandler.m */,
+				F8101EB81F8B3CD5001A20A4 /* SLKUrlHandler.h */,
+				F8101EBB1F8B3CD5001A20A4 /* SLKUrlHandler.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		F8101EC61F8B3CFF001A20A4 /* Token */ = {
+			isa = PBXGroup;
+			children = (
+				F8101ECE1F8B3D15001A20A4 /* SLKLinkRect.h */,
+				F8101ED21F8B3D16001A20A4 /* SLKLinkRect.m */,
+				F8101ECC1F8B3D15001A20A4 /* SLKMessageComponent.h */,
+				F8101ED31F8B3D16001A20A4 /* SLKMessageComponent.m */,
+				F8101EC81F8B3D15001A20A4 /* SLKMessageToken.h */,
+				F8101ECA1F8B3D15001A20A4 /* SLKMessageToken.m */,
+				F8101ED41F8B3D16001A20A4 /* SLKMessageToken+Display.h */,
+				F8101ECB1F8B3D15001A20A4 /* SLKMessageToken+Display.m */,
+			);
+			path = Token;
+			sourceTree = "<group>";
+		};
+		F8101EE61F8B3F71001A20A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8101EE81F8B3F7E001A20A4 /* SLKMessageAsyncView.h */,
+				F8101EE71F8B3F7E001A20A4 /* SLKMessageAsyncView.m */,
+				F8101EEA1F8B400E001A20A4 /* SLKMessageAsyncLayer.h */,
+				F8101EEB1F8B400E001A20A4 /* SLKMessageAsyncLayer.m */,
+				F8101EEE1F8B41B3001A20A4 /* SLKMessageView.h */,
+				F8101EEF1F8B41B3001A20A4 /* SLKMessageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8101E7E1F8B14F1001A20A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8101E851F8B14F1001A20A4 /* SLKMessageParser.h in Headers */,
+				F8101F0A1F8B4BB8001A20A4 /* UIFont+SLKMessageParser.h in Headers */,
+				F8101F0B1F8B4C5B001A20A4 /* SLKMessageView.h in Headers */,
+				F8101F0C1F8B4CD6001A20A4 /* SLKMessageAsyncView.h in Headers */,
+				F8101F0D1F8B4CD6001A20A4 /* SLKMessageComponent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		F8101E621F8B14DA001A20A4 /* SlackMessageParser */ = {
@@ -81,15 +339,35 @@
 				F8101E5F1F8B14DA001A20A4 /* Sources */,
 				F8101E601F8B14DA001A20A4 /* Frameworks */,
 				F8101E611F8B14DA001A20A4 /* Resources */,
+				F8101E8D1F8B14F1001A20A4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F8101E871F8B14F1001A20A4 /* PBXTargetDependency */,
 			);
 			name = SlackMessageParser;
 			productName = SlackMessageParser;
 			productReference = F8101E631F8B14DA001A20A4 /* SlackMessageParser.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F8101E801F8B14F1001A20A4 /* SLKMessageParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8101E8A1F8B14F1001A20A4 /* Build configuration list for PBXNativeTarget "SLKMessageParser" */;
+			buildPhases = (
+				F8101E7C1F8B14F1001A20A4 /* Sources */,
+				F8101E7D1F8B14F1001A20A4 /* Frameworks */,
+				F8101E7E1F8B14F1001A20A4 /* Headers */,
+				F8101E7F1F8B14F1001A20A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLKMessageParser;
+			productName = SLKMessageParser;
+			productReference = F8101E811F8B14F1001A20A4 /* SLKMessageParser.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +379,10 @@
 				ORGANIZATIONNAME = sai;
 				TargetAttributes = {
 					F8101E621F8B14DA001A20A4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F8101E801F8B14F1001A20A4 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -120,6 +402,7 @@
 			projectRoot = "";
 			targets = (
 				F8101E621F8B14DA001A20A4 /* SlackMessageParser */,
+				F8101E801F8B14F1001A20A4 /* SLKMessageParser */,
 			);
 		};
 /* End PBXProject section */
@@ -129,9 +412,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8101EA01F8B2487001A20A4 /* Lato-Black.ttf in Resources */,
+				F8101EA11F8B2487001A20A4 /* Lato-BlackItalic.ttf in Resources */,
+				F8101EA21F8B2487001A20A4 /* Lato-Bold.ttf in Resources */,
+				F8101EA31F8B2487001A20A4 /* Lato-BoldItalic.ttf in Resources */,
+				F8101EA41F8B2487001A20A4 /* Lato-Hairline.ttf in Resources */,
+				F8101EA51F8B2487001A20A4 /* Lato-HairlineItalic.ttf in Resources */,
+				F8101EA61F8B2487001A20A4 /* Lato-Italic.ttf in Resources */,
+				F8101EFF1F8B45E3001A20A4 /* Main.storyboard in Resources */,
+				F8101EA71F8B2487001A20A4 /* Lato-Light.ttf in Resources */,
+				F8101EA81F8B2487001A20A4 /* Lato-LightItalic.ttf in Resources */,
+				F8101EA91F8B2487001A20A4 /* Lato-Regular.ttf in Resources */,
 				F8101E731F8B14DA001A20A4 /* LaunchScreen.storyboard in Resources */,
 				F8101E701F8B14DA001A20A4 /* Assets.xcassets in Resources */,
-				F8101E6E1F8B14DA001A20A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8101E7F1F8B14F1001A20A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +442,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8101E6B1F8B14DA001A20A4 /* ViewController.m in Sources */,
 				F8101E761F8B14DA001A20A4 /* main.m in Sources */,
+				F8101EFB1F8B44D3001A20A4 /* UIWindow+FHH.m in Sources */,
 				F8101E681F8B14DA001A20A4 /* AppDelegate.m in Sources */,
+				F8101F101F8B4D58001A20A4 /* StartViewController.m in Sources */,
+				F8101EFC1F8B44D3001A20A4 /* FHHFPSIndicator.m in Sources */,
+				F8101EFD1F8B44D3001A20A4 /* SLKMessageCell.m in Sources */,
+				F8101EF41F8B44B6001A20A4 /* SLKMessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8101E7C1F8B14F1001A20A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8101EE01F8B3E34001A20A4 /* SLKRegx.m in Sources */,
+				F8101EF11F8B41B3001A20A4 /* SLKMessageView.m in Sources */,
+				F8101EDF1F8B3E31001A20A4 /* SLKMessageParser.m in Sources */,
+				F8101EDB1F8B3E27001A20A4 /* SLKMessageToken.m in Sources */,
+				F8101EDE1F8B3E2F001A20A4 /* SLKMarkupHandler.m in Sources */,
+				F8101EB11F8B3BA0001A20A4 /* SLKEmojiMap.m in Sources */,
+				F8101ED81F8B3DBD001A20A4 /* UIColor+SLKMessageParser.m in Sources */,
+				F8101EED1F8B400E001A20A4 /* SLKMessageAsyncLayer.m in Sources */,
+				F8101EE41F8B3E40001A20A4 /* SLKTokensStringHandler.m in Sources */,
+				F8101E941F8B1643001A20A4 /* UIFont+SLKMessageParser.m in Sources */,
+				F8101EAD1F8B3B56001A20A4 /* NSString+SLKMessageParser.m in Sources */,
+				F8101EDC1F8B3E29001A20A4 /* SLKMessageToken+Display.m in Sources */,
+				F8101EE51F8B3E43001A20A4 /* SLKUrlHandler.m in Sources */,
+				F8101EE91F8B3F99001A20A4 /* SLKMessageAsyncView.m in Sources */,
+				F8101EDD1F8B3E2D001A20A4 /* SLKEmojiHandler.m in Sources */,
+				F8101EDA1F8B3E24001A20A4 /* SLKMessageComponent.m in Sources */,
+				F8101EE31F8B3E3E001A20A4 /* SLKTokenHandler.m in Sources */,
+				F8101ED91F8B3E21001A20A4 /* SLKLinkRect.m in Sources */,
+				F8101EE11F8B3E38001A20A4 /* SLKSpecialsHandler.m in Sources */,
+				F8101EE21F8B3E3B001A20A4 /* SLKTokenArrayHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F8101E6C1F8B14DA001A20A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8101E6D1F8B14DA001A20A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		F8101E871F8B14F1001A20A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8101E801F8B14F1001A20A4 /* SLKMessageParser */;
+			targetProxy = F8101E861F8B14F1001A20A4 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		F8101E711F8B14DA001A20A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +633,52 @@
 			};
 			name = Release;
 		};
+		F8101E8B1F8B14F1001A20A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 47793U9PJ9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SLKMessageParser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SLKMessageParser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8101E8C1F8B14F1001A20A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 47793U9PJ9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SLKMessageParser/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.SLKMessageParser;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +696,15 @@
 			buildConfigurations = (
 				F8101E7A1F8B14DA001A20A4 /* Debug */,
 				F8101E7B1F8B14DA001A20A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8101E8A1F8B14F1001A20A4 /* Build configuration list for PBXNativeTarget "SLKMessageParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8101E8B1F8B14F1001A20A4 /* Debug */,
+				F8101E8C1F8B14F1001A20A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

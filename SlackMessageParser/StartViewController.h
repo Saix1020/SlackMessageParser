@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StartViewController.h
 //  SlackMessageParser
 //
 //  Created by saix on 2017/10/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StartViewController : UITableViewController
 
 @end
-
